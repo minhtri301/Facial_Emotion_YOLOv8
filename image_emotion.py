@@ -2,7 +2,7 @@ from ultralytics import YOLO
 import cv2
 
 face_model_path = 'trainModelAI/yolov8n-face.pt'
-emotion_model_path = 'trainModelAI/yolov8n-cls/best_CLS.pt'
+emotion_model_path = 'trainModelAI/yolov8s-cls/best_CLS2.pt'
 image_path = 'images/a2v.jpg'
 
 face_model = YOLO(face_model_path)
