@@ -18,5 +18,5 @@ request python --version from 8 - 12
     pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
 ## Run
-
-  python realtime_emotion.py
+  
+    python realtime_emotion.py
